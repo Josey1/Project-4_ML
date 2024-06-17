@@ -1,6 +1,15 @@
+![image](https://github.com/Josey1/Project-4_ML/assets/14218202/89ede0fd-76e7-4fa4-9d18-cd7b8c18fd28)
+
 # Project-4_ML
-This will contain work on my Machine learning project
-The dataset used indicates that an individual’s annual income results from various factors. Intuitively, it is influenced by the individual’s education level, age, gender, occupation, and etc.
+## Business Case/Task
+The goal of this project is to build a predictive model that can determine whether an individual earns more than $50K annually based on the adult dataset. The model aims to assist businesses and organizations in identifying potential high-income earners, which can be valuable for targeted marketing, financial services, and other applications.
+## Feature Engineering Approaches Applied/Tried
+1. Handling Missing Values: Replaced missing values (represented as '?') with NaN and dropped rows with missing target values.
+2.Encoding Categorical Variables: Used one-hot encoding to convert categorical variables into numerical form.
+3. Standardization: Scaled the numerical features to have a mean of 0 and a standard deviation of 1.
+4. Principal Component Analysis (PCA): Reduced the dimensionality of the dataset by extracting the top 3 principal components.
+5. Clustering: Applied KMeans clustering to create cluster labels and added these labels as new features.
+6. Feature Selection: Employed a RandomForest classifier to select important features based on their importance scores.
 
 ## Below are some of the visuals after data modeling;
 ### Visual 1
