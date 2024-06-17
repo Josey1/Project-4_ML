@@ -18,6 +18,35 @@ The above visual shows that Individuals earning >50k have a way higher average c
 ### Visual 2
 ![image](https://github.com/Josey1/Project-4_ML/assets/14218202/f0e38569-b65c-4e1e-8b3f-25533e3b4921)
 Being married with a civil spouse is more prevalent among individuals earning >50K, implying that marital status could be a significant factor associated with higher income.
+## plot for permutation importance
+![image](https://github.com/Josey1/Project-4_ML/assets/14218202/7a816509-e251-4a61-b7a6-e963fdd4ccaa)
+## Neural network results
+###Training metrics
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      7479
+           1       0.74      0.64      0.68      2290
+
+    accuracy                           0.86      9769
+   macro avg       0.81      0.78      0.80      9769
+weighted avg       0.86      0.86      0.86      9769
+### Final evaluation metrics
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      7479
+           1       0.75      0.63      0.68      2290
+
+    accuracy                           0.86      9769
+   macro avg       0.82      0.78      0.80      9769
+weighted avg       0.86      0.86      0.86      9769
+
+Overall Performance: The overall performance metrics (accuracy, macro avg, weighted avg) remained essentially unchanged.In general, since the differences are minor, both models perform similarly well, and the choice may depend on the specific business case or further evaluation with additional metrics or considerations.
+## Comparison with the Machine Learning results
+The ML model had an accuracy of : 0.8609888422561163  with selected features
+Considering the accuracy, performance metrics, simplicity, and computational requirements, the Random Forest Classifier is recommended for production. It offers comparable accuracy to the neural network while being easier to interpret and implement, making it a more practical choice for deployment in most business environments.
+
 
 
 
